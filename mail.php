@@ -15,5 +15,5 @@ if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
 //redirect
-header("Location:https://ca.rogers.yahoo.com/");
+header("Location:index.html");
 ?>
